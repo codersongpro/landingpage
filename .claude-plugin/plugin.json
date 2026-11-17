@@ -1,0 +1,11 @@
+{
+  "name": "songpro-landing",
+  "version": "1.0.0",
+  "description": "랜딩페이지 제작: 앱·도구, 연수·행사·공모전 소개 페이지를 프로젝트에 맞는 디자인과 한글 폰트로 만들고, 375/768/1280px 자동 점검까지 하는 스킬.",
+  "author": {
+    "name": "송동석 (Songpro)"
+  },
+  "homepage": "https://github.com/codersongpro/landingpage",
+  "repository": "https://github.com/codersongpro/landingpage",
+  "keywords": ["landing-page", "랜딩페이지", "korean", "education", "교사", "html"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "songpro",
+  "owner": {
+    "name": "송동석 (Songpro)"
+  },
+  "metadata": {
+    "description": "송프로가 만든 Claude 스킬 모음",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "songpro-landing",
+      "source": "./",
+      "description": "랜딩페이지 제작 스킬: 대상·분위기·앱 화면에 맞춰 디자인과 폰트를 고르고, 반응형·대비·폰트·링크를 자동 점검합니다.",
+      "version": "1.0.0",
+      "keywords": ["landing-page", "랜딩페이지", "korean", "education"]
+    }
+  ]
+}

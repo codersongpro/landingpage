@@ -112,6 +112,14 @@ AI Product Builder · Educator · Data Analyst
 ## 5. 확인
 
 완성 전에 브라우저에서 직접 열어 본다.
+
+먼저 자동 점검을 돌린다(Node.js 18+와 Playwright가 있을 때). 스크린샷 3장, 가로 스크롤·넘침, 폰트 로딩, 글자 대비, 빈 링크, `<head>` 메타태그를 한 번에 확인한다. `✗`로 나온 항목을 고친 뒤 다시 돌리고, 스크린샷은 직접 눈으로 본다.
+
+```
+node <이 스킬 폴더>/scripts/check_page.js index.html --out check-result --links
+```
+
+Playwright가 없으면 `npm i -D playwright && npx playwright install chromium`으로 설치하거나, 아래 항목을 브라우저에서 손으로 확인한다.
 - 375px, 768px, 1280px 세 폭에서 스크린샷: 가로 스크롤, 글자 넘침, 버튼 줄바꿈
 - 고른 폰트가 실제로 불러와졌는지(`document.fonts` 확인), 한글 글자가 대체 폰트로 깨져 보이지 않는지
 - 어두운 디자인이면 대비, 밝은 디자인이면 연한 글자(--text-3, --text-4)가 너무 흐리지 않은지
